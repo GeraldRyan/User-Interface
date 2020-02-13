@@ -167,9 +167,18 @@ h5 {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Fondamento', cursive;
+}
+
 .container {
     width: 98%;
     margin: auto;
+}
+
+header {
+    padding-top: 75px;
+    padding-bottom: 25px;
 }
 
 header div {
@@ -186,13 +195,9 @@ header div div {
     align-items: center;
 }
 
-.extra-margin {
-    margin:
-}
-
 header div div button {
     display: block;
-    margin: auto;
+    margin: 15px auto;
 }
 
 h1 {
@@ -201,19 +206,6 @@ h1 {
     text-align: center;
     font-size: 65px;
 }
-
-
-/* button {
-    position: relative;
-    top: -50px;
-    left: 66px;
-} */
-
-
-/* header {
-    width: 75%;
-    margin: auto;
-} */
 
 img {
     display: inline-block;
@@ -226,12 +218,17 @@ a {
 
 nav {
     width: 100%;
-    margin: 40px;
+    margin: 0 40px;
+    background-color: green;
+    position: fixed;
+    margin-bottom: 40px;
 }
 
 nav a {
-    margin: 0 30px;
+    margin: 0 50px;
     text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
 nav img {
@@ -247,6 +244,12 @@ nav img {
 
 .middle-img {
     width: 100%;
+}
+
+.clickme:hover {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .bottom-section div {
