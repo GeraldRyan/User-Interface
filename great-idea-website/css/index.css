@@ -163,8 +163,42 @@ h5 {
 /* Your code starts here! */
 
 * {
-    border: 1px solid gray;
-    box-sizing: border-box
+    /* border: 1px solid gray; */
+    box-sizing: border-box;
+}
+
+.container {
+    width: 98%;
+    margin: auto;
+}
+
+.centerize {
+    line-height: 200px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 28px;
+}
+
+button {
+    position: relative;
+    top: -50px;
+    left: 66px;
+}
+
+.iblock {
+    display: inline-block;
+}
+
+
+/* header {
+    width: 75%;
+    margin: auto;
+} */
+
+img {
+    display: inline-block;
 }
 
 a {
@@ -174,4 +208,25 @@ a {
 
 nav {
     width: auto
+}
+
+.top-section div {
+    width: 49%;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.middle-img {
+    width: 100%;
+}
+
+.bottom-section div {
+    width: 32%;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+footer {
+    margin: 15px;
+    text-align: center;
 }
